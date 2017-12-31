@@ -106,7 +106,7 @@ legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, bty="n",
 plot(ds$dt,as.numeric(ds$Global_reactive_power), type="l", 
    ylab="Global Rective Power (kilowatts)",xlab="")
 
-png(paste0(plot_path,"//plot_03.PNG"), width=480, height=480)
+png(paste0(plot_path,"//plot_04.PNG"), width=480, height=480)
 dev.off()
 
 
